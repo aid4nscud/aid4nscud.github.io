@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aid4nscud.github.io/sitemap.xml

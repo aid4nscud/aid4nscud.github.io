@@ -1,3 +1,16 @@
-# WorldSchool static rebuild
+# WorldSchool static site
 
-Static GitHub Pages rebuild of worldschool.org using their current public branding and assets.
+Independent static rebuild of the WorldSchool marketing site for GitHub Pages.
+
+## Structure
+
+- `site_src/site_data.py` — shared page content and asset sources
+- `site_src/styles.css` — site styles
+- `site_src/app.js` — small client-side interactions
+- `scripts/build_site.py` — downloads selected public assets and regenerates the published pages
+
+## Rebuild
+
+Run:
+
+`python3 scripts/build_site.py`
